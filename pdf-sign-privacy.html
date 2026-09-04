@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — PDF Fill &amp; Sign</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 32px 20px 72px; max-width: 44rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1b1d22; background: #fff;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.12rem; margin: 32px 0 8px; }
+  .updated { color: #5b616e; font-size: .9rem; margin: 0 0 28px; }
+  .lede { background: #f4f6f9; border: 1px solid #e2e6ec; border-radius: 10px; padding: 16px 18px; margin: 0 0 28px; }
+  .lede p { margin: 0; font-weight: 600; }
+  code { background: #f0f2f5; padding: 2px 6px; border-radius: 4px; font-size: .9em; word-break: break-all; }
+  pre { background: #f0f2f5; padding: 12px 14px; border-radius: 8px; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 5px 0; }
+  a { color: #1d4ed8; }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid #e2e6ec; color: #5b616e; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e8ec; background: #16181d; }
+    .lede { background: #1e2128; border-color: #2b2f38; }
+    code, pre { background: #1e2128; }
+    .updated, footer { color: #9aa1ad; }
+    a { color: #7ea2ff; }
+    footer { border-top-color: #2b2f38; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — PDF Fill &amp; Sign</h1>
+<p class="updated">Last updated: <!-- OPERATOR: set this date when you publish -->4 September 2026</p>
+
+<div class="lede">
+  <p>Your documents never leave your computer. This extension does its work entirely inside your own
+  browser. There is no server of ours, no account to create, and no tracking of any kind.</p>
+</div>
+
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> We operate no server, no database and no analytics. We do not collect your
+name, your email address, your location, your browsing history, or anything about how you use the
+extension.</p>
+
+<h2>Your documents</h2>
+<p>Every PDF you open with this extension is read into your browser's memory, processed there, and saved
+back to your own computer as a download. Your files are <strong>never uploaded, never transmitted, and
+never seen by us or anyone else.</strong></p>
+<p>This is a property of how the extension is built, not a promise about how we behave: the extension
+has no permission to send your files anywhere. It can reach exactly one internet address, described
+below.</p>
+
+<h2>The one network request</h2>
+<p>If — and only if — you buy a licence and click <strong>Activate</strong>, the extension sends the
+licence key you typed to our payment provider, Gumroad, so it can confirm the purchase is genuine:</p>
+<pre><code>POST https://api.gumroad.com/v2/licenses/verify</code></pre>
+<p>That request contains your licence key and the product identifier. It contains nothing else — not
+your files, not your name, not your email. As with any request to any website, Gumroad will also see
+your IP address; their handling of it is governed by
+<a href="https://gumroad.com/privacy" rel="noopener noreferrer">Gumroad's own privacy policy</a>.</p>
+<p>If you never enter a licence key, <strong>the extension never makes a network request at all</strong>
+and works entirely offline.</p>
+
+<h2>What is stored on your computer</h2>
+<p>The extension stores a small amount of data in your browser's local extension storage, on your
+machine only:</p>
+<ul>
+  <li>your licence key, if you have activated one;</li>
+  <li>the date you activated it;</li>
+  <li>a count of how many tasks you have run today, used for the free daily allowance.</li>
+</ul>
+<p>This never leaves your computer, is not synced, and is not readable by us or by any website. Removing
+the extension deletes it.</p>
+
+<h2>Permissions, and why they exist</h2>
+<ul>
+  <li><code>storage</code> — to keep the three items listed above.</li>
+  <li>Access to <code>api.gumroad.com</code> — solely for the licence check described above. This is the
+  only website the extension is permitted to contact.</li>
+</ul>
+<p>The extension requests no permission to read web pages, no access to your browsing history, no access
+to the contents of your tabs, and no access to any other website.</p>
+
+<h2>Children</h2>
+<p>This is a general-purpose document tool. We do not knowingly collect information from anyone, of any
+age, because we do not collect information at all.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the "last updated" date above changes with it. Because the extension collects
+nothing, any change here would follow a change in the extension itself, which would be described in its
+Chrome Web Store listing.</p>
+
+<h2>Contact</h2>
+<p>LunarAlliance — <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a></p>
+
+<footer>
+  Privacy policy for the PDF Fill &amp; Sign Chrome extension.
+  <a href="./index.html">All policies</a>
+</footer>
+
+</body>
+</html>
